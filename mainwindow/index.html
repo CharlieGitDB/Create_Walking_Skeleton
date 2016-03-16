@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Walking Skeleton</title>
+</head>
+<script>
+  require('./menu/mainmenu.js');
+  window.$ = window.jQuery = require('./../vendors/jquery.min.js');
+  require('./logic.js');
+</script>
+<body>
+  <input type="text" placeholder="Path to creation folder" class="skelePath" style="width: 300px;"/> <button class="createSkel">Create Skeleton</button>
+  <p class="mainMsg">To create a walking Node.js application skeleton just type in the path where you want your Node.js walking skeleton to live.
+    <br><br>
+     Example for Windows: <br><b>C:\Users\MyUsername\MyDocuments\WalkingSkeletonHere</b>
+    <br><br>
+     Example for Linux/OSX: <br><b>/home/MyUsername/MyDocuments/WalkingSkeletonHere</b>
+  </p>
+</body>
+</html>
