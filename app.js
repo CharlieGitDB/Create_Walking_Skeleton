@@ -4,8 +4,6 @@ var BrowserWindow = require('browser-window');
 var ipc = require('electron').ipcMain;
 var fs = require('fs');
 
-// process.platform
-
 //WHEN APPLICATION IS READY
 app.on('ready', function(){
 
@@ -30,7 +28,7 @@ app.on('ready', function(){
     show: false
   });
   gitWindow.setMenu(null);
-  gitWindow.loadURL('https://github.com/charliegitdb');
+  gitWindow.loadURL('https://github.com/CharlieGitDB/Create_Walking_Skeleton');
   gitWindow.on('close', function(e){
     e.preventDefault();
     hideShowGitWin();
@@ -185,8 +183,9 @@ app.on('window-all-closed', function(){
   }
 });
 
-// fs.mkdirSync('C:/Users/C/Desktop/Windows Projects/skellycreator/bobjim');
 
+//IGNORE FOR NOW THIS WILL BE REMOVED
+// process.platform
 // var exec = require('child_process').exec;
 // var child;
 // child = exec("start cmd.exe", function (error, stdout, stderr) {
