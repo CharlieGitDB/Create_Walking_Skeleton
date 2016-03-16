@@ -1,7 +1,7 @@
 # Create_Walking_Skeleton
 
 
-This is my first attempt at a desktop application using electron. (The same program that has made Slack, GitHubs IDE Atom, and many more)
+This is my first attempt at a desktop application using electron. (The same utility that has made Slack, GitHubs IDE Atom, and many more)
 
 It runs on Linux, OSX, and Windows.
 
