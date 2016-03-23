@@ -151,7 +151,7 @@ readme`);
   "dependencies": {
     "express": "~4.13.3",
     "grunt": "~0.4.5",
-    "grunt-contrib-watch": "~0.8.2",
+    "grunt-contrib-copy": "~0.8.2",
     "grunt-contrib-uglify": "~0.11.0",
     "grunt-contrib-watch": "~0.6.1",
     "path": "~0.12.7",
@@ -161,9 +161,9 @@ readme`);
 
     fs.writeFile(skelPath + '/readme',
 `Things you will need to do for your project to be fully finished:
-
+**DO NOT NPM INIT**
 1.) You will need to change the information inside of your package.json, change the version number, description, and name.  These are all option of course but are recommended.
-2.) You will need to open up a terminal and npm init, and npm install.
+2.) You will need to open up a terminal npm install.
 3.) You will need to open a second terminal and grunt.
 4.) You will need to decide a client frame work if needed (ie angular, jquery)
 5.) If there is any odd issues try running npm update.
