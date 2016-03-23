@@ -124,13 +124,12 @@ var server = app.listen(3000, function(){
     			}
     		}
     });
-
-    grunt.loadNpmTasks('grunt-contrib-copy');
+    
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['copy', 'uglify', 'watch']);
+    grunt.registerTask('default', ['uglify', 'watch']);
 
 };`);
     fs.writeFile(skelPath + '/.gitignore',
@@ -151,7 +150,6 @@ readme`);
   "dependencies": {
     "express": "~4.13.3",
     "grunt": "~0.4.5",
-    "grunt-contrib-copy": "~0.8.2",
     "grunt-contrib-uglify": "~0.11.0",
     "grunt-contrib-watch": "~0.6.1",
     "path": "~0.12.7",
