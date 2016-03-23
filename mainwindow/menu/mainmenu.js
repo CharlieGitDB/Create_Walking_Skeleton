@@ -8,7 +8,7 @@ var template = [
     submenu: [
       {
         label: 'About Developer',
-        click: function(){ alert('This application was created by Charlie A.  You can send an email to charliedevelopmentaccess@gmail.com to contact the creator.  You can also view the creators GitHub at https://www.github.com/charliegitdb') }
+        click: function(){ alert('This application was created by Charlie A.  You can send an email to charliedevelopmentaccess@gmail.com to contact the creator.  You can also view the creators GitHub at https://www.github.com/charliegitdb\n\nApplication Icon Created By: http://creativecommons.org/') }
       },
       {
         label: 'View Programs Source Code',
