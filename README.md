@@ -1,5 +1,6 @@
 # Create_Walking_Skeleton
 
+Technologies Used: jQuery, Electron
 
 This is my first attempt at a desktop application using electron. (The same utility that has made Slack, GitHubs IDE Atom, and many more)
 
