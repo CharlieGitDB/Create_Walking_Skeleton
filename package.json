@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-packager . CreateSkeleton --platform=win32 --arch=x64"
+    "build": "electron-packager . CreateSkeleton --platform=win32 --arch=x64 --version-string.CompanyName=CharlieA --version-string.ProductName=CreateSkeleton --version-string.FileVersion=1.1.2 --icon=/skel.ico --version-string.FileDescription=\"Create a Node.js Walking Skeleton\" --version-string.ProductVersion=1.1.2 --version-string.Copyright=\"(C) 2016 CharlieA All rights reserved.\""
   },
   "author": "Charlie A",
   "license": "MIT",

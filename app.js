@@ -12,7 +12,8 @@ app.on('ready', function(){
     width: 480,
     height: 200,
     center: true,
-    maximizable: false
+    maximizable: false,
+    icon: __dirname + '/skel.ico'
   });
   mainWindow.setResizable(false);
   mainWindow.setMenu(null);
@@ -25,7 +26,8 @@ app.on('ready', function(){
   gitWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    show: false
+    show: false,
+    icon: __dirname + '/skel.ico'
   });
   gitWindow.setMenu(null);
   gitWindow.loadURL('https://github.com/CharlieGitDB/Create_Walking_Skeleton');
