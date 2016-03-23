@@ -124,7 +124,7 @@ var server = app.listen(3000, function(){
     			}
     		}
     });
-    
+
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
@@ -182,25 +182,3 @@ app.on('window-all-closed', function(){
     app.quit();
   }
 });
-
-
-//IGNORE FOR NOW THIS WILL BE REMOVED
-// process.platform
-// var exec = require('child_process').exec;
-// var child;
-// child = exec("start cmd.exe", function (error, stdout, stderr) {
-//   console.log('stdout: ' + stdout);
-//   console.log('stderr: ' + stderr);
-//   if (error !== null) {
-//     console.log('exec error: ' + error);
-//   }
-//
-//
-// });
-// var blah = exec('cd C:/Users/C/Documents', function (error, stdout, stderr) {
-//   console.log('stdout: ' + stdout);
-//   console.log('stderr: ' + stderr);
-//   if (error !== null) {
-//     console.log('exec error: ' + error);
-//   }
-// });
